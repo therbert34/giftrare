@@ -32,7 +32,7 @@ body {
     font-weight:900;
     font-size:7rem;
     opacity:1;
-    transition: all 2.5s cubic-bezier(0, 0, 1, 1);
+    transition: all 2.5s cubic-bezier(0, -.01, 1, 1);
 }
     
 .fly-in li:last-child {
