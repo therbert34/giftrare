@@ -26,13 +26,13 @@ body {
 .fly-in li {
     display: inline-block;
     color:red;
-    margin-right: 15px;
+    margin-right: 10px;
 
     font-family:'Special Elite', cursive;
     font-weight:900;
     font-size:7rem;
     opacity:1;
-    transition: all 2.5s cubic-bezier(0.6, -.005, 0.32, 1.75);
+    transition: all 2.5s cubic-bezier(0, 0, 1, 1);
 }
     
 .fly-in li:last-child {
