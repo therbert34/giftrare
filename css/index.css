@@ -16,7 +16,7 @@ body {
     top:50%;
     list-style:none;
     transform: translateX(-50%) translateY(-50%);
-    margin-top: 12rem;
+    margin-top: 14rem;
     border: 20px;
     border-bottom-style: inset;
     border-right-style: inset;
@@ -32,7 +32,7 @@ body {
     font-weight:900;
     font-size:7rem;
     opacity:1;
-    transition: all 2.5s cubic-bezier(0.6, -.005, 0.32, 1.75);
+    transition: all 2.5s cubic-bezier(0.6, 0.32, -.005, 1.75);
 }
     
 .fly-in li:last-child {
