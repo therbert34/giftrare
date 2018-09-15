@@ -191,6 +191,15 @@ main h4 {
 
 
 
+/*#board-section {
+    margin-top:3rem;
+    margin-bottom:8rem;
+}*/
+
+/*.imagetohide {
+    display:inline-block;
+    align-content:center;
+}*/
 
 
 header {
@@ -211,66 +220,27 @@ font-size:1rem;
 
 }
 
-.fa {
+footer a {
     list-style-type: none;
-    text-decoration: none;
+    text-decoration:none;
     color:black;
 }
 
 
-.fa:hover {
+footer a:hover {
     opacity: 1;
-    color: red;
-   
+    color:red;
+    text-decoration:none;
     
 }
 
-.fa:active {
+footer a:active {
     opacity:0.5;
-    color: green;
-
+    color:green;
+    text-decoration:none;
 }
 
-.footer-link {
-    list-style-type: none;
-   text-decoration: none;
-    color: black;
-}
-
-
-.footer-link: hover {
-    opacity: 1;
-    color: red;
- 
-    
-}
-
-.footer-link: active {
-    opacity: 0.5;
-    color: green;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*This Section contains style for the About.html page*/
 
 
 
