@@ -220,25 +220,46 @@ font-size:1rem;
 
 }
 
-footer a {
+.fa {
     list-style-type: none;
-    text-decoration:none;
+    text-decoration: none;
     color:black;
 }
 
 
-footer a:hover {
+.fa:hover {
     opacity: 1;
-    color:red;
-    text-decoration:none;
+    color: red;
+   
     
 }
 
-footer a:active {
+.fa:active {
     opacity:0.5;
-    color:green;
-    text-decoration:none;
+    color: green;
+
 }
+
+.footer-link {
+    list-style-type: none;
+   text-decoration: none;
+    color: black;
+}
+
+
+.footer-link: hover {
+    opacity: 1;
+    color: red;
+ 
+    
+}
+
+.footer-link: active {
+    opacity: 0.5;
+    color: green;
+    
+}
+
 
 
 
