@@ -16,7 +16,7 @@ body {
     top:50%;
     list-style:none;
     transform: translateX(-50%) translateY(-50%);
-    margin-top: 10rem;
+    margin-top: 12rem;
     border: 20px;
     border-bottom-style: inset;
     border-right-style: inset;
