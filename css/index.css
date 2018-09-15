@@ -1,14 +1,194 @@
 body {
-    position: relative;
-    height:100%;
+
+    padding:0;
     margin:0;
+    background-color:#fefeff;
+    position: relative; 
+    
+}
+
+
+/*Index CSS styling section */
+.fly-in {
+    display: flex;
+    position:absolute;
+    left:50%;
+    top:50%;
+    list-style:none;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 10rem;
+    border: 20px;
+    border-bottom-style: inset;
+    border-right-style: inset;
+    
+}
+
+.fly-in li {
+    display: inline-block;
+    color:red;
+    margin-right: 15px;
+
+    font-family:'Special Elite', cursive;
+    font-weight:900;
+    font-size:7rem;
+    opacity:1;
+    transition: all 2.5s cubic-bezier(0.6, -.005, 0.32, 1.75);
+}
+    
+.fly-in li:last-child {
+    margin-right: 0;
+} 
+
+.fly-in.hidden li {
+    opacity: 0;
+}
+
+.fly-in.hidden li:nth-child(1) {
+    transform: translateX(100px) translateY(-150px);
+}
+.fly-in.hidden li:nth-child(2) {
+    transform: translateX(-210px) translateY(110px);
+}
+.fly-in.hidden li:nth-child(3) {
+    transform: translateX(20px) translateY(-130px);
+}
+.fly-in.hidden li:nth-child(4) {
+    transform: translateX(-110px) translateY(-20px);
+}
+.fly-in.hidden li:nth-child(5) {
+    transform: translateX(-70px) translateY(-200px);
+}
+.fly-in.hidden li:nth-child(6) {
+    transform: translateX(200px) translateY(70px);
+}
+.fly-in.hidden li:nth-child(7) {
+    transform: translateX(30px) translateY(230px);
+}
+.fly-in.hidden li:nth-child(8) {
+    transform: translateX(30px) translateY(-180px);
+}
+.fly-in.hidden li:nth-child(9) {
+    transform: translateX(100px) translateY(-170px);
 }
 
 
 
 
+/* Main Section Styling */
 
-/*This section styles my Main section*/
+main p {
+     font-family: 'Quicksand', sans-serif;
+    font-size:1rem;
+}
+
+main h1 {
+    font-family:'Anton', sans-serif;
+    font-size:4rem;
+    
+}
+
+main h2 {
+     font-family:'Anton', sans-serif;
+     font-size:3rem;
+     
+}
+
+main h3 {
+      font-family:'Anton', sans-serif;
+      font-size:2rem;
+    
+}
+
+main h4 {
+  font-family:'Crimson Text', serif;
+  font-size:1.8rem;
+  
+}
+
+/*Media Queries section for Font sizing and Image*/
+
+@media only screen and (max-width:420px){
+    main h1 {
+        font-size:34px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    main h2 {
+        font-size:32px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    main h3 {
+        font-size:28px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    main h4 {
+        font-size:26px;
+    }
+}
+
+@media only screen and (max-width:360px){
+    main h1 {
+        font-size:30px;
+    }
+}
+
+@media only screen and (max-width:360px){
+    main h2 {
+        font-size:28px;
+    }
+}
+
+
+@media only screen and (max-width:360px){
+    main h3 {
+        font-size:18px;
+    }
+}
+
+@media only screen and (max-width:360px){
+    main h4 {
+        font-size:23px;
+    }
+}
+
+@media screen and (max-width:482px){
+    main h3 {
+        font-size:23px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    main p {
+        font-size:14px;
+    }
+}
+
+.form-area {
+
+    border: ridge 3px #d1d4d9 ;
+}
+
+#contactsection {
+    background-color:#a50104;
+    color:#000000;
+}
+
+[type=submit] {
+    cursor: pointer;
+    color:white;
+    padding-top: 20px;
+}
+
+[type=submit]:hover {
+    background-color:#a50104;
+    color:white;
+}
+
 
 
 /*#board-section {
@@ -16,13 +196,27 @@ body {
     margin-bottom:8rem;
 }*/
 
+/*.imagetohide {
+    display:inline-block;
+    align-content:center;
+}*/
+
+
+header {
+    font-family: 'Crimson Text', serif;
+    font-weight:700;
+    font-size:1.3rem;
+}
 
 
 
-/*This section styles my Footer section*/
+/* Footer Styling Section for ALL pages: index, program, about, contact. */
+
 footer {
-
 text-align:center;
+font-family: 'Crimson Text', serif;
+font-weight:700;
+font-size:1rem;
 
 }
 
@@ -46,7 +240,25 @@ footer a:active {
     text-decoration:none;
 }
 
-/*This Section contains style for the About.html page*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
